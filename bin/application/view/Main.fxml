@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import java.util.ArrayList?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+<children>
+
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf0" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf21" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf22" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf23" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="28.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf24" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf25" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf26" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf27" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf28" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf29" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf30" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf31" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf32" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf33" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf34" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf35" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf36" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf37" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf38" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf39" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf40" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf41" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf42" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf43" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf44" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf45" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf46" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="56.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf47" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="84.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf48" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf49" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf50" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf51" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf52" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf53" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf54" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf55" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf56" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf57" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf58" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf59" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf60" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf61" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf62" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf63" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf64" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf65" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf66" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf67" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf68" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf69" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf70" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="112.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf71" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="140.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf72" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf73" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf74" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf75" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf76" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf77" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf78" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf79" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf80" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf81" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf82" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf83" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf84" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf85" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf86" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf87" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf88" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf89" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf90" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf91" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf92" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf93" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf94" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="168.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf95" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="196.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf96" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf97" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf98" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf99" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf100" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf101" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf102" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf103" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf104" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf105" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf106" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf107" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf108" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf109" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf110" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf111" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf112" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf113" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf114" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf115" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf116" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf117" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf118" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="224.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf119" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="252.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf120" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf121" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf122" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf123" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf124" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf125" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf126" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf127" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf128" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf129" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf130" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf131" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf132" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf133" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf134" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf135" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf136" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf137" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf138" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf139" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf140" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf141" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf142" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="280.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf143" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="308.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf144" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf145" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf146" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf147" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf148" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf149" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf150" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf151" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf152" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf153" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf154" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf155" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf156" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf157" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf158" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf159" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf160" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf161" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf162" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf163" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf164" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf165" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf166" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="336.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf167" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="364.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf168" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf169" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf170" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf171" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf172" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf173" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf174" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf175" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf176" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf177" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf178" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf179" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf180" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf181" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf182" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf183" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf184" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf185" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf186" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf187" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf188" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf189" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf190" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="392.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf191" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="420.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf192" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf193" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf194" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf195" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf196" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf197" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf198" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf199" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf200" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf201" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf202" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf203" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="448.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf204" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf205" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf206" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf207" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf208" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf209" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf210" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf211" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf212" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf213" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf214" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf215" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf216" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf217" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf218" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf219" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf220" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf221" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf222" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf223" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf224" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf225" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf226" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="476.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf227" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="504.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf228" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf229" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf230" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf231" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf232" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf233" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf234" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf235" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf236" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf237" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf238" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf239" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf240" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf241" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf242" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf243" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="222.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf244" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf245" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf246" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf247" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="286.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf248" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf249" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf250" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="532.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+<Rectangle onMouseEntered="#onBox" onMouseExited="#offBox" onMouseClicked="#boxClicked" fx:id="idOf251" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="560.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="28.0" />
+</children>
+
+<fx:define>
+<ArrayList fx:id="rectanglesList" >
+<fx:reference source="idOf0"/>
+<fx:reference source="idOf1"/>
+<fx:reference source="idOf2"/>
+<fx:reference source="idOf3"/>
+<fx:reference source="idOf4"/>
+<fx:reference source="idOf5"/>
+<fx:reference source="idOf6"/>
+<fx:reference source="idOf7"/>
+<fx:reference source="idOf8"/>
+<fx:reference source="idOf9"/>
+<fx:reference source="idOf10"/>
+<fx:reference source="idOf11"/>
+<fx:reference source="idOf12"/>
+<fx:reference source="idOf13"/>
+<fx:reference source="idOf14"/>
+<fx:reference source="idOf15"/>
+<fx:reference source="idOf16"/>
+<fx:reference source="idOf17"/>
+<fx:reference source="idOf18"/>
+<fx:reference source="idOf19"/>
+<fx:reference source="idOf20"/>
+<fx:reference source="idOf21"/>
+<fx:reference source="idOf22"/>
+<fx:reference source="idOf23"/>
+<fx:reference source="idOf24"/>
+<fx:reference source="idOf25"/>
+<fx:reference source="idOf26"/>
+<fx:reference source="idOf27"/>
+<fx:reference source="idOf28"/>
+<fx:reference source="idOf29"/>
+<fx:reference source="idOf30"/>
+<fx:reference source="idOf31"/>
+<fx:reference source="idOf32"/>
+<fx:reference source="idOf33"/>
+<fx:reference source="idOf34"/>
+<fx:reference source="idOf35"/>
+<fx:reference source="idOf36"/>
+<fx:reference source="idOf37"/>
+<fx:reference source="idOf38"/>
+<fx:reference source="idOf39"/>
+<fx:reference source="idOf40"/>
+<fx:reference source="idOf41"/>
+<fx:reference source="idOf42"/>
+<fx:reference source="idOf43"/>
+<fx:reference source="idOf44"/>
+<fx:reference source="idOf45"/>
+<fx:reference source="idOf46"/>
+<fx:reference source="idOf47"/>
+<fx:reference source="idOf48"/>
+<fx:reference source="idOf49"/>
+<fx:reference source="idOf50"/>
+<fx:reference source="idOf51"/>
+<fx:reference source="idOf52"/>
+<fx:reference source="idOf53"/>
+<fx:reference source="idOf54"/>
+<fx:reference source="idOf55"/>
+<fx:reference source="idOf56"/>
+<fx:reference source="idOf57"/>
+<fx:reference source="idOf58"/>
+<fx:reference source="idOf59"/>
+<fx:reference source="idOf60"/>
+<fx:reference source="idOf61"/>
+<fx:reference source="idOf62"/>
+<fx:reference source="idOf63"/>
+<fx:reference source="idOf64"/>
+<fx:reference source="idOf65"/>
+<fx:reference source="idOf66"/>
+<fx:reference source="idOf67"/>
+<fx:reference source="idOf68"/>
+<fx:reference source="idOf69"/>
+<fx:reference source="idOf70"/>
+<fx:reference source="idOf71"/>
+<fx:reference source="idOf72"/>
+<fx:reference source="idOf73"/>
+<fx:reference source="idOf74"/>
+<fx:reference source="idOf75"/>
+<fx:reference source="idOf76"/>
+<fx:reference source="idOf77"/>
+<fx:reference source="idOf78"/>
+<fx:reference source="idOf79"/>
+<fx:reference source="idOf80"/>
+<fx:reference source="idOf81"/>
+<fx:reference source="idOf82"/>
+<fx:reference source="idOf83"/>
+<fx:reference source="idOf84"/>
+<fx:reference source="idOf85"/>
+<fx:reference source="idOf86"/>
+<fx:reference source="idOf87"/>
+<fx:reference source="idOf88"/>
+<fx:reference source="idOf89"/>
+<fx:reference source="idOf90"/>
+<fx:reference source="idOf91"/>
+<fx:reference source="idOf92"/>
+<fx:reference source="idOf93"/>
+<fx:reference source="idOf94"/>
+<fx:reference source="idOf95"/>
+<fx:reference source="idOf96"/>
+<fx:reference source="idOf97"/>
+<fx:reference source="idOf98"/>
+<fx:reference source="idOf99"/>
+<fx:reference source="idOf100"/>
+<fx:reference source="idOf101"/>
+<fx:reference source="idOf102"/>
+<fx:reference source="idOf103"/>
+<fx:reference source="idOf104"/>
+<fx:reference source="idOf105"/>
+<fx:reference source="idOf106"/>
+<fx:reference source="idOf107"/>
+<fx:reference source="idOf108"/>
+<fx:reference source="idOf109"/>
+<fx:reference source="idOf110"/>
+<fx:reference source="idOf111"/>
+<fx:reference source="idOf112"/>
+<fx:reference source="idOf113"/>
+<fx:reference source="idOf114"/>
+<fx:reference source="idOf115"/>
+<fx:reference source="idOf116"/>
+<fx:reference source="idOf117"/>
+<fx:reference source="idOf118"/>
+<fx:reference source="idOf119"/>
+<fx:reference source="idOf120"/>
+<fx:reference source="idOf121"/>
+<fx:reference source="idOf122"/>
+<fx:reference source="idOf123"/>
+<fx:reference source="idOf124"/>
+<fx:reference source="idOf125"/>
+<fx:reference source="idOf126"/>
+<fx:reference source="idOf127"/>
+<fx:reference source="idOf128"/>
+<fx:reference source="idOf129"/>
+<fx:reference source="idOf130"/>
+<fx:reference source="idOf131"/>
+<fx:reference source="idOf132"/>
+<fx:reference source="idOf133"/>
+<fx:reference source="idOf134"/>
+<fx:reference source="idOf135"/>
+<fx:reference source="idOf136"/>
+<fx:reference source="idOf137"/>
+<fx:reference source="idOf138"/>
+<fx:reference source="idOf139"/>
+<fx:reference source="idOf140"/>
+<fx:reference source="idOf141"/>
+<fx:reference source="idOf142"/>
+<fx:reference source="idOf143"/>
+<fx:reference source="idOf144"/>
+<fx:reference source="idOf145"/>
+<fx:reference source="idOf146"/>
+<fx:reference source="idOf147"/>
+<fx:reference source="idOf148"/>
+<fx:reference source="idOf149"/>
+<fx:reference source="idOf150"/>
+<fx:reference source="idOf151"/>
+<fx:reference source="idOf152"/>
+<fx:reference source="idOf153"/>
+<fx:reference source="idOf154"/>
+<fx:reference source="idOf155"/>
+<fx:reference source="idOf156"/>
+<fx:reference source="idOf157"/>
+<fx:reference source="idOf158"/>
+<fx:reference source="idOf159"/>
+<fx:reference source="idOf160"/>
+<fx:reference source="idOf161"/>
+<fx:reference source="idOf162"/>
+<fx:reference source="idOf163"/>
+<fx:reference source="idOf164"/>
+<fx:reference source="idOf165"/>
+<fx:reference source="idOf166"/>
+<fx:reference source="idOf167"/>
+<fx:reference source="idOf168"/>
+<fx:reference source="idOf169"/>
+<fx:reference source="idOf170"/>
+<fx:reference source="idOf171"/>
+<fx:reference source="idOf172"/>
+<fx:reference source="idOf173"/>
+<fx:reference source="idOf174"/>
+<fx:reference source="idOf175"/>
+<fx:reference source="idOf176"/>
+<fx:reference source="idOf177"/>
+<fx:reference source="idOf178"/>
+<fx:reference source="idOf179"/>
+<fx:reference source="idOf180"/>
+<fx:reference source="idOf181"/>
+<fx:reference source="idOf182"/>
+<fx:reference source="idOf183"/>
+<fx:reference source="idOf184"/>
+<fx:reference source="idOf185"/>
+<fx:reference source="idOf186"/>
+<fx:reference source="idOf187"/>
+<fx:reference source="idOf188"/>
+<fx:reference source="idOf189"/>
+<fx:reference source="idOf190"/>
+<fx:reference source="idOf191"/>
+<fx:reference source="idOf192"/>
+<fx:reference source="idOf193"/>
+<fx:reference source="idOf194"/>
+<fx:reference source="idOf195"/>
+<fx:reference source="idOf196"/>
+<fx:reference source="idOf197"/>
+<fx:reference source="idOf198"/>
+<fx:reference source="idOf199"/>
+<fx:reference source="idOf200"/>
+<fx:reference source="idOf201"/>
+<fx:reference source="idOf202"/>
+<fx:reference source="idOf203"/>
+<fx:reference source="idOf204"/>
+<fx:reference source="idOf205"/>
+<fx:reference source="idOf206"/>
+<fx:reference source="idOf207"/>
+<fx:reference source="idOf208"/>
+<fx:reference source="idOf209"/>
+<fx:reference source="idOf210"/>
+<fx:reference source="idOf211"/>
+<fx:reference source="idOf212"/>
+<fx:reference source="idOf213"/>
+<fx:reference source="idOf214"/>
+<fx:reference source="idOf215"/>
+<fx:reference source="idOf216"/>
+<fx:reference source="idOf217"/>
+<fx:reference source="idOf218"/>
+<fx:reference source="idOf219"/>
+<fx:reference source="idOf220"/>
+<fx:reference source="idOf221"/>
+<fx:reference source="idOf222"/>
+<fx:reference source="idOf223"/>
+<fx:reference source="idOf224"/>
+<fx:reference source="idOf225"/>
+<fx:reference source="idOf226"/>
+<fx:reference source="idOf227"/>
+<fx:reference source="idOf228"/>
+<fx:reference source="idOf229"/>
+<fx:reference source="idOf230"/>
+<fx:reference source="idOf231"/>
+<fx:reference source="idOf232"/>
+<fx:reference source="idOf233"/>
+<fx:reference source="idOf234"/>
+<fx:reference source="idOf235"/>
+<fx:reference source="idOf236"/>
+<fx:reference source="idOf237"/>
+<fx:reference source="idOf238"/>
+<fx:reference source="idOf239"/>
+<fx:reference source="idOf240"/>
+<fx:reference source="idOf241"/>
+<fx:reference source="idOf242"/>
+<fx:reference source="idOf243"/>
+<fx:reference source="idOf244"/>
+<fx:reference source="idOf245"/>
+<fx:reference source="idOf246"/>
+<fx:reference source="idOf247"/>
+<fx:reference source="idOf248"/>
+<fx:reference source="idOf249"/>
+<fx:reference source="idOf250"/>
+<fx:reference source="idOf251"/>
+</ArrayList>
+</fx:define>
+
+</AnchorPane>
