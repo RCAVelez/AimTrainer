@@ -73,6 +73,7 @@ public class Beat {
 	
 	 public void playMusic()
      {
+		 this.sleepTime = 461;
     	 Media sound = new Media(Paths.get("song.wav").toUri().toString());
         
     	 mediaPlayer = new MediaPlayer(sound);

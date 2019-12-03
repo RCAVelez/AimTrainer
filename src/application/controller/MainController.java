@@ -33,8 +33,8 @@ public class MainController {
     	
     	//create new beat object and call all functions
     	beat = new Beat("Billie Eilish", "bad guy");
-    	beat.establishConnection();
-    	beat.extractBMP();
+    	//beat.establishConnection();
+    	//beat.extractBMP();
     	
     	//play the song and run the Beats simulatniously
     	beat.playMusic();
